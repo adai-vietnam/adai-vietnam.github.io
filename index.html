@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ADAI Vietnam</title>
+  <meta content="Applied Data Science and Artificial Intelligence in Vietnam" name="description">
+  <meta content="Applied Data Science and Artificial Intelligence in Vietnam" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/ADAI.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+<!--         <h1 class="text-light"><a href="index.html"><span>ADAI.</span></a></h1>
+ -->        <!-- Uncomment below if you prefer to use an image logo -->
+         <a href="index.html"><img src="assets/img/ADAI.png" alt="Artificial Intelligence and Data Science Vietnam" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="./index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+<!--           <li><a class="nav-link scrollto" href="#services">Services</a></li>
+ -->
+          <li class="dropdown"><a href="#services"><span>Our Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="./ai_speech.html">AI in Speech-to-Text</a></li>
+              <li><a href="./ai_accounting.html">AI in Accounting</a></li>
+              <li><a href="./computer-vision.html">Computer Vision</a></li>
+              <li><a href="./outsourcing.html">Outsourcing of AI & Machine Learning</a></li>
+            </ul>
+          </li>
+
+          <li><a class="nav-link scrollto" href="#team">Our Team</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a href="vn/index.html">Tiếng Việt 🇻🇳</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+      <canvas id=c></canvas>
+    <div class="hero-container" data-aos="fade-up">
+      <h1>Applied Data Science & Artificial Intelligence.</h1>
+      <h2>A consortium of companies, tech labs and universities for AI development in Vietnam</h2>
+      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="content">
+              <h3>Create the world of tomorrow today</h3>
+              <p>
+                The Applied Data Science and Artificial Intelligence (ADAI) Lab was founded in 2020 by two companies - Individual Systems (IVS) and Vietnam Hi-Tech Engineering Company (VHEC), in cooperation with universities and organizations in Vietnam and Japan. The ADAI Lab pioneers applied research and training in AI and data science to enhance the skills of the Vietnamese workforce and help companies make precise, data-driven decisions.
+              </p>
+              <p>
+                The Lab promotes excellence in AI research & training to accelerate the digital transformation of Vietnam and the advent of Industry 4.0.
+              </p>
+              <a href="#services" class="about-btn">Our services<i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="col-xl-7 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Our Mission</h4>
+                  <p>ADAI Lab supports research, proposes intelligent management solutions for businesses and organizations, and help companies in Vietnam keep up to date with industry development and the progress of the technological revolution</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Our Vision</h4>
+                  <p>By 2025, ADAI Lab will become a reputable data science and AI lab in the region, contributing to the improvement of the capacity, human resources and expertise for the IT sector of Vietnam.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class='bx bx-location-plus'></i>
+                  <h4>Our Location</h4>
+                  <p>ADAI Lab is located in Mitech Center for IT & Foreign Languages, a part of Telecommunications University. The Center was founded in a partnership between Vietnam and India to promote IT resources and national defense.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class='bx bx-building-house'></i>
+                  <h4>Our Working Environment</h4>
+                  <p>A member of the Quang Trung Software City and boasting nearly 30,000 square meters of modern working space, green offices and high-speed internet connection, Mitech Center promises to be the heart of technological innovation in Central Vietnam.</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Our Services</h2>
+          <p>We specialize in research and development for applications of data science and AI technology in the real world. Our focus stems from our experts' domain knowledge and the needs of Vietnamese companies for innovation and digital transformation.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class='bx bx-message-rounded-detail'></i></div>
+              <h4 class="title"><a href="./ai_speech.html">AI in Speech-to-Text</a></h4>
+              <p class="description">Unique speech recognition solution for the Vietnamese language</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="./ai_accounting.html">AI in Accounting</a></h4>
+              <p class="description">Novel AI solutions to automate accounting workflow</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class='bx bx-camera'></i></div>
+              <h4 class="title"><a href="./computer-vision.html">Computer Vision</a></h4>
+              <p class="description">Computer vision and drone technology for civilian and military applications</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="./outsourcing.html">Outsourcing for AI & Machine Learning</a></h4>
+              <p class="description">Foundational training in AI technology for young talents</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Counts Section ======= -->
+<!--     <section id="counts" class="counts  section-bg">
+      <div class="container">
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> consequuntur quae</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+            <div class="count-box">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> -->
+
+    <!-- End Counts Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>"The future belongs to those who prepare for it today."</h3>
+          <p>Let us work together to create the vision of a world made better with the help of AI technology.</p>
+          <a class="cta-btn" href="#">Work with us</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+<!--     <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Testimonials</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section> -->
+
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Our Team</h2>
+          <p>Our experts are academic professors from highly regarded technical universities in Vietnam. They support the innovation and development of our products and services as well as the training for our young talents.</p>
+        </div>
+
+        <div class="row">
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dr. Chieu Quang Ta</h4>
+                <span>ADAI Lecturer</span>
+                <div class="social">
+                  <p>
+                    Dr. Chieu is a lecturer at the ADAI Lab, specializing in big data, data science, optimization, and matheuristic algorithms. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="150">
+              <div class="pic"><img src="assets/img/team/team-2.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dr. Phuc Hong Nguyen</h4>
+                <span>ADAI Research Partner</span>
+                <div class="social">
+                  <p>
+                    Dr. Phuc is a research partner of ADAI Lab. Her field of interest includes AI, optimization and computer vision. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/team/team-3.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Dr. Vinh Quang Dinh</h4>
+                <span>ADAI Research Partner</span>
+                <div class="social">
+                  <p>Dr. Vinh is a research partner of ADAI Lab whose primary interests include deep learning and computer vision.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section><!-- End Team Section -->
+
+    <section id="partners" class="partners section-bg">
+
+          <div id="cards_landscape_wrap-2">
+
+        <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Our Partners</h2>
+          <p>Our consortium is comprised of partner companies, tech labs and institutions, with decades of experience in IT infrastructure and product development.</p>
+        </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-md-6">
+                    <a href="https://vhec.vn/" target="_blank">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/img/partners/vhec.jpeg" alt="VHEC Vietnam" />
+                                </div>
+                                <div class="text-container">
+                                    <img class="avatar rounded-circle" src="assets/img/partners/logo-VHEC.png">
+                                    <h6>VHEC</h6>
+                                    <p>With 5 years of experience in the IT industries, 40 core employees and more than 500 extended employees, VHEC has developed multiple management systems for hotels, companies and schools, with many projects on digital transformation and e-government. Having close ties to IT enterprises in Japan, VHEC’s partners include: Hitachi, Keidanren, and Nissan"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-md-6">
+                    <a href="http://indivisys.vn/" target="_blank">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/img/partners/ivs.jpeg" alt="IVS Vietnam" />
+                                </div>
+                                <div class="text-container">
+                                    <img class="avatar rounded-circle" src="assets/img/partners/logo-IVS.png" alt="" />
+                                    
+                                    <h6>IVS</h6>
+                                    <p>With 20 years of experience in the IT industries with 400 employees and 6 offices in Vietnam & Japan, IVS has deployed IT systems for more than 200 companies in VN. As a software R&D and outsourcing enterprise saving millions of USD for US and Japanese companies, IVS’s partners include: NTT Data, KDDI, and Soft Bank</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-md-6">
+                    <a href="https://mitechcenter.vn/" target="_blank">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="assets/img/partners/mitech.jpeg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <img class="avatar rounded-circle" src="assets/img/partners/logo-mitech.png" alt="" />
+                                    <h6>Mitech Center</h6>
+                                   <p>An IT infrastructure investment worth 5 million USD from the Indian government and the Vietnamese Ministry of Defense, Mitech Center is the bridge of connection between technical schools and institutions in Nha Trang with resources to train and recruit promising IT talents. Mitech Center’s Partners include: Cisco, Mahindra Group, IIG Vietnam, ICDL Vietnam"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Gallery</h2>
+          <p>A photo gallery of our team's events, workshops, product demos and conferences.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">2021</li>
+<!--               <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+ -->            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-1.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-2.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-3.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-4.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-5.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-6.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-7.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-8.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+<!--           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/event-9.jpeg" class="img-fluid" alt="">
+            </div> -->
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>If you have any questions or suggestions for cooperation and projects, please contact us through the form and the details below. We are always looking for new ideas, innovation, partners and young talents.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Our Address</h3>
+              <p>2nd Floor, Mitech Center, No. 75 Road 2/4, Nha Trang City, Vietnam</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email Us</h3>
+              <p> <a href="mailto:vn_sales@indivisys.vn">VHEC</a> or <a href="mailto:vn_sales@indivisys.vn">IVS</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Call Us</h3>
+              <p>(+84)-28-3526-1435 / (+84)-94-345-5215</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+<!--             <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15593.501490376055!2d109.1885058!3d12.2904888!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x400662b186d79155!2sMitech%20Center!5e0!3m2!1sen!2sde!4v1608238978908!5m2!1sen!2sde" frameborder="0" loading="lazy" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="https://formspree.io/f/xqkwzndr" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <img src="assets/img/ADAI.png" alt="Artificial Intelligence and Data Science Vietnam" class="img-fluid"><br>
+              <p class="pb-3"><em>Applied Data Science & Artificial Intelligence Lab</em></p>
+              <p>
+                2nd Floor, Mitech Center, No. 75 Road 2/4 <br>
+                Nha Trang City, Vietnam<br><br>
+                <strong>Phone:</strong> (+84)-28-3526-1435 / (+84)-94-345-5215<br>
+                <strong>Email:</strong> <a href="mailto:vn_sales@indivisys.vn">VHEC</a> or <a href="mailto:vn_sales@indivisys.vn">IVS</a><br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./index.html#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./index.html#services">Our Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://vhec.vn/" target="_blank">VHEC</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://indivisys.jp/en/" target="_blank">IVS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="http://htsolutions.vn/" target="_blank">HT Dynamic Solutions</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="./ai_speech.html">AI in Speech-to-Text</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./ai_accounting.html">AI in Accounting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./computer-vision.html">Computer Vision</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./outsourcing.html">Outsourcing for AI & Machine Learning</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Get the most up-to-date news from us by signing up for our newsletter and mailing list!</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>ADAI Vietnam</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

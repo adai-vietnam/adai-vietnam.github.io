@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>ADAI Vietnam</title>
+  <meta content="Phòng Thí Nghiệm Khoa học Dữ liệu Ứng dụng và Trí tuệ Nhân tạo" name="description">
+  <meta content="Phòng Thí Nghiệm Khoa học Dữ liệu Ứng dụng và Trí tuệ Nhân tạo" name="keywords">
+
+  <!-- Favicons -->
+  <link href="../assets/img/ADAI.png" rel="icon">
+  <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="../assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+<!--         <h1 class="text-light"><a href="index.html"><span>ADAI.</span></a></h1>
+ -->        <!-- Uncomment below if you prefer to use an image logo -->
+         <a href="../vn/index.html"><img src="../assets/img/ADAI.png" alt="Artificial Intelligence and Data Science Vietnam" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="../vn/index.html">Trang chủ</a></li>
+          <li><a class="nav-link scrollto" href="#about">Về chúng tôi</a></li>
+<!--           <li><a class="nav-link scrollto" href="#services">Services</a></li>
+ -->
+          <li class="dropdown"><a href="#services"><span>Dịch vụ</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="../vn/ai_speech.html">AI trong Nhận dạng giọng nói</a></li>
+              <li><a href="../vn/ai_accounting.html">AI trong Kế toán 
+</a></li>
+              <li><a href="../vn/computer-vision.html">Thị giác Máy học</a></li>
+              <li><a href="../vn/outsourcing.html">Đào tạo AI & Máy học 
+</a></li>
+            </ul>
+          </li>
+
+          <li><a class="nav-link scrollto" href="#team">Đội ngũ</a></li>
+          <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Liên hệ</a></li>
+          <li><a href="../index.html">English 🇺🇸</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+      <canvas id=c></canvas>
+    <div class="hero-container" data-aos="fade-up">
+      <h1>Phòng thí nghiệm Khoa học Dữ liệu Ứng dụng và Trí tuệ Nhân tạo</h1>
+      <h2>Liên hiệp các công ty, phòng thí nghiệm và trường đại học cho sự phát triển của Trí Tuệ Nhân Tạo tại Việt Nam</h2>
+      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-up">
+            <div class="content">
+              <h3>Tạo dựng Thế giới Tương lai ở Hiện tại</h3>
+              <p>
+                Phòng thí nghiệm Nghiên cứu Ứng dụng Khoa học Dữ liệu và Trí tuệ Nhân tạo (ADAI) được thành lập vào năm 2020 bởi hai công ty - Individual Systems (IVS) và Vietnam Hi-Tech Engineering Company (VHEC), với sự hợp tác của các trường đại học và tổ chức tại Việt Nam và Nhật Bản. ADAI Lab tiên phong trong nghiên cứu ứng dụng và đào tạo về trí tuệ nhân tạo (AI) và khoa học dữ liệu nhằm nâng cao kỹ năng của lực lượng lao động Việt Nam và giúp các công ty đưa ra quyết định chính xác, dựa trên dữ liệu.
+              </p>
+              <p>
+                Phòng thí nghiệm thúc đẩy sự xuất sắc trong nghiên cứu và đào tạo về AI nhằm thúc đẩy quá trình chuyển đổi số của Việt Nam trong bối cảnh bùng nổ Công nghiệp 4.0.
+              </p>
+              <a href="#services" class="about-btn">Dịch vụ<i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="col-xl-7 d-flex align-items-stretch">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Nhiệm vụ</h4>
+                  <p>ADAI Lab đóng vai trò nghiên cứu, đề xuất giải pháp quản trị thông minh cho doanh nghiệp và tổ chức, giúp các công ty đối tác cập nhật kịp thời sự phát triển của ngành và hỗ trợ các công ty tham gia mạnh mẽ vào cách mạng chuyển đổi số tại Việt Nam.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Tầm nhìn </h4>
+                  <p>Đến năm 2025, ADAI Lab sẽ trở thành một phòng thí nghiệm ứng dụng khoa học dữ liệu và trí tuệ nhân tạo có chất lượng và hiệu quả, góp phần nâng cao năng lực và cung ứng nhân lực chất lượng cao cho ngành Công nghệ thông tin tại Việt Nam.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class='bx bx-location-plus'></i>
+                  <h4>Địa điểm</h4>
+                  <p>ADAI Lab toạ lạc tại Trung tâm CNTT & Ngoại ngữ Mitech, trực thuộc Trường Đại học Thông tin Liên lạc. Trung tâm được thành lập qua một thoả thuận hợp tác giữa Việt Nam và Ấn Độ nhằm thúc đẩy nguồn lực CNTT và quốc phòng của cả hai nước.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class='bx bx-building-house'></i>
+                  <h4>Môi trường làm việc</h4>
+                  <p>Là thành viên của chuỗi Công viên phần mềm Quang Trung nổi tiếng, với không gian làm việc hiện đại rộng gần 30 nghìn m2, mô hình văn phòng xanh và đường truyền internet tốc độ cao, Mitech Center hứa hẹn sẽ là cái nôi đổi mới công nghệ tại miền Trung, bồi dưỡng nguồn nhân lực CNTT chất lượng cao cho cả quân đội và tư nhân.</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Dịch vụ</h2>
+          <p>Đội ngũ giàu kinh nghiệm của chúng tôi nghiên cứu và phát triển các ứng dụng Trí tuệ Nhân tạo và Khoa học Dữ liệu trong cuộc sống.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class='bx bx-message-rounded-detail'></i></div>
+              <h4 class="title"><a href="./ai_speech.html">AI trong Nhận dạng giọng nói</a></h4>
+              <p class="description">Giải pháp nhận dạng giọng nói chuyên biệt cho ngôn ngữ tiếng Việt</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4 class="title"><a href="./ai_accounting.html">AI trong Kế toán</a></h4>
+              <p class="description">Các giải pháp AI tân tiến số hoá và tự động hoá quy trình kế toán</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class='bx bx-camera'></i></div>
+              <h4 class="title"><a href="./computer-vision.html">Thị giác Máy học</a></h4>
+              <p class="description">Kết nối công nghệ máy học và phương tiện bay không người lái cho các ứng dụng quân sự và dân sự</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4 class="title"><a href="./outsourcing.html">Đào tạo AI và Máy học</a></h4>
+              <p class="description">Các khoá học căn bản và chuyên sâu về AI và Khoa học Dữ liệu cho các tài năng trẻ về công nghệ</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>"Tương lai thuộc về ai sẵn sàng chuẩn bị cho nó trong hiện tại"</h3>
+          <p>Hãy cùng chúng tôi xây dựng các ứng dụng và công nghệ AI hỗ trợ cho cuộc sống và xã hội của chúng ta!</p>
+          <a class="cta-btn" href="#contact">Hợp tác cùng chúng tôi</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Đội ngũ</h2>
+          <p>Các chuyên gia của chúng tôi đều là các giảng viên đại học được đào tạo trong môi trường quốc tế, và giàu kinh nghiệm trong nghiên cứu, phát triển các ứng dụng công nghệ AI</p>
+        </div>
+
+        <div class="row">
+
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up">
+              <div class="pic"><img src="../assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Tiến sĩ Tạ Quang Chiều</h4>
+                <span>Giảng viên ADAI</span>
+                <div class="social">
+                  <p>
+                    Thầy Chiểu là giảng viên tại Phòng thí nghiệm ADAI, chuyên về dữ liệu lớn và khoa học dữ liệu, tối ưu hóa, thuật toán metaheuristic và matheuristic.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="150">
+              <div class="pic"><img src="../assets/img/team/team-2.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Tiến sĩ Nguyễn Hồng Phúc</h4>
+                <span>Đối tác Nghiên cứu ADAI</span>
+                <div class="social">
+                  <p>
+                    Tiến sĩ Phúc là đối tác nghiên cứu của ADAI Lab. Các lĩnh vực cô tập trung bao gồm AI, tối ưu hóa và thị giác máy tính.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="pic"><img src="../assets/img/team/team-3.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Tiến sĩ Đinh Quang Vinh</h4>
+                <span>Đối tác Nghiên cứu ADAI</span>
+                <div class="social">
+                  <p>Tiến sĩ Vinh là đối tác nghiên cứu của ADAI Lab, với các đề tài nghiên cứu chính bao gồm học sâu (deep learning) và thị giác máy tính.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section><!-- End Team Section -->
+
+    <section id="partners" class="partners section-bg">
+
+          <div id="cards_landscape_wrap-2">
+
+        <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Đối tác</h2>
+          <p>Phòng thí nghiệm được thiết lập bởi các đối tác là các công ty, phòng thí nghiệm và trường đại học với nhiều năm kinh nghiệm trong việc phát triển hệ thống Công nghệ Thông tin cũng như đào tạo nhân lực IT.</p>
+        </div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-md-6">
+                    <a href="https://vhec.vn/" target="_blank">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="../assets/img/partners/vhec.jpeg" alt="VHEC Vietnam" />
+                                </div>
+                                <div class="text-container">
+                                    <img class="avatar rounded-circle" src="../assets/img/partners/logo-VHEC.png">
+                                    <h6>VHEC</h6>
+                                    <p>Với 5 năm kinh nghiệm trong lĩnh vực CNTT, 40 nhân viên cốt cán và hơn 500 nhân viên mở rộng, VHEC có chuyên môn phát triển hệ thống quản lý khách sạn, công ty và trường học, với nhiều dự án về Chuyển đổi số và chính phủ điện tử. VHEC đồng thời có mối quan hệ chặt chẽ với các doanh nghiệp CNTT tại Nhật Bản như Hitachi, Keidanren và Nissan.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-md-6">
+                    <a href="http://indivisys.vn/" target="_blank">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="../assets/img/partners/ivs.jpeg" alt="IVS Vietnam" />
+                                </div>
+                                <div class="text-container">
+                                    <img class="avatar rounded-circle" src="../assets/img/partners/logo-IVS.png" alt="" />
+                                    
+                                    <h6>IVS</h6>
+                                    <p> Với 20 năm kinh nghiệm trong lĩnh vực CNTT với 400 nhân viên và 6 văn phòng tại Việt Nam & Nhật Bản, IVS tập trung chuyên sâu và lĩnh vực triển khai hệ thống CNTT cho hơn 200 công ty tại Việt Nam, gia công phần mềm R&D trị giá hàng triệu USD cho các công ty Mỹ và Nhật Bản. Các đối tác chính của IVS bao gồm: NTT Data, KDDI và Soft Bank.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4 col-md-6">
+                    <a href="https://mitechcenter.vn/" target="_blank">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="../assets/img/partners/mitech.jpeg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <img class="avatar rounded-circle" src="../assets/img/partners/logo-mitech.png" alt="" />
+                                    <h6>Trung tâm Công nghệ Mitech</h6>
+                                   <p>Nhận tài trợ cho cơ sở hạ tầng CNTT trị giá 5 triệu USD từ Chính phủ Ấn Độ, cũng như tài trợ từ Bộ Quốc phòng Việt Nam, Mitech Center là nơi kết nối của nhiều trường học, cơ sở tại Nha Trang để cung cấp cơ sở hạ tầng và ứng viên triển vọng từ khoa CNTT các trường đại học. Các đối tác của Mitech Center bao gồm: Cisco, Mahindra Group, IIG Vietnam, ICDL Vietnam.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+          <h2>Kho hình ảnh</h2>
+          <p>Kho hình ảnh các hoạt động, sự kiện, workshop, buổi giới thiệu sản phẩm của phòng thí nghiệm.</p>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Tất cả</li>
+              <li data-filter=".filter-app">2021</li>
+<!--               <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+ -->            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/event-1.jpeg" class="img-fluid" alt="">
+<!--               <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+ -->            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/event-2.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/event-3.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/event-4.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/event-5.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/event-6.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/event-7.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="../assets/img/portfolio/event-8.jpeg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- End Portfolio Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Liên hệ</h2>
+          <p>Nếu bạn có bất cứ câu hỏi gì hoặc có ý định hợp tác với chúng tôi, xin liên hệ qua form dưới đây hoặc địa chỉ email. Chúng tôi luôn chào đón các ý tưởng và các cơ hội hợp tác mới. Xin cám ơn!</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="info-box mb-4">
+              <i class="bx bx-map"></i>
+              <h3>Địa chỉ</h3>
+              <p>Tầng 2, Mitech Center, 75 đường 2/4, Thành phố Nha Trang, Việt Nam</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-envelope"></i>
+              <h3>Email</h3>
+              <p> <a href="mailto:vn_sales@indivisys.vn">VHEC</a> hoặc <a href="mailto:vn_sales@indivisys.vn">IVS</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-box  mb-4">
+              <i class="bx bx-phone-call"></i>
+              <h3>Điện thoại</h3>
+              <p>(+84)-28-3526-1435 / (+84)-94-345-5215</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6 ">
+<!--             <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15593.501490376055!2d109.1885058!3d12.2904888!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x400662b186d79155!2sMitech%20Center!5e0!3m2!1sen!2sde!4v1608238978908!5m2!1sen!2sde" frameborder="0" loading="lazy" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Tên" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Địa chỉ Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Tiêu đề" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Lời nhắn" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Gửi lời nhắn</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <img src="../assets/img/ADAI.png" alt="Artificial Intelligence and Data Science Vietnam" class="img-fluid"><br>
+              <p class="pb-3"><em>Applied Data Science & Artificial Intelligence Lab</em></p>
+              <p>
+                Tầng 2, Mitech Center75 đường 2/4<br>
+                Nha Trang, Việt Nam<br><br>
+                <strong>Điện thoại:</strong> (+84)-28-3526-1435 / (+84)-94-345-5215<br>
+                <strong>Email:</strong> <a href="mailto:vn_sales@indivisys.vn">VHEC</a> hoặc <a href="mailto:vn_sales@indivisys.vn">IVS</a><br>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Liên kết</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="../vn/index.html">Trang chủ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../vn/index.html#about">Về chúng tôi</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../vn/index.html#services">Dịch vụ</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://vhec.vn/" target="_blank">VHEC</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://indivisys.jp/en/" target="_blank">IVS</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="http://htsolutions.vn/" target="_blank">HT Dynamic Solutions</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Dịch vụ</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="../vn/ai_speech.html">AI trong Nhận diện giọng nói</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../vn/ai_accounting.html">AI trong Kế toán</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../vn/computer-vision.html">Thị giác Máy học</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="../vn/outsourcing.html">Đào tạo AI & Máy học</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Đăng ký thư định kỳ</h4>
+            <p>Quý khách có thể cập nhật thông tin về hoạt động và các dự án của phòng thí nghiệm bằng cách đăng ký email dưới dây. Xin cám ơn Quý khách!</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Đăng ký">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>ADAI Vietnam</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="../assets/vendor/aos/aos.js"></script>
+  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../assets/vendor/purecounter/purecounter.js"></script>
+  <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
